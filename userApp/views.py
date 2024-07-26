@@ -17,7 +17,6 @@ from .permissions import IsOwnerOrReadOnly
 from .models import *
 from .serializers import *
 
-
 # class UserRegistrationView(generics.GenericAPIView):
 #     queryset = User.objects.all()
 #     serializer_class = UserRegistrationSerializer
